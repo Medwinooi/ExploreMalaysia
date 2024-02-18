@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+header {
+    background-color:light gray;
+    height:80px;
+    width:100%;
+    position:fixed;    
+}
+h1 {
+    color:black;
+}
+
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.news {
+    background-color:black;
+    color:black;
+    height:95vh;
+    background-image: url(Images/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column; 
+    background-size: cover;
+    align-items: center;
+    justify-content: center;  
+ 
+} 
+.news h2 {
+    font-size:60px;
+    margin-top:60px;
+} 
+.news p {
+    color:black;
+    font: size 30px;
+    margin:25px 0;
+}
+.menu {
+    display:block;
+    background-color: transparent;
+    color:white;
+    font-size: 35px;
+    position:absolute;
+    top:15px;
+    left:20px;
+    border:none;
+    cursor: pointer;
+}
+.slogan {
+    background-color:#775347;
+    color: black;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1em;  
+} 
+#h3 {
+    margin-right: 13000px;
+    font-size: larger;
+    margin-left: 20px;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    right: 5vw;
+    top: 0px;
+    line-height: 80px   ;
+}
+.us {
+    background-color: gray;
+    color: aliceblue;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.us p {
+    margin-bottom: 20px;
+}
+.us input, .us button{
+    background-color: darkcyan;
+    color: azure;
+    border: 1px solid#949d9a;
+    padding: 10px;
+    border-radius: 5px;
+}
+.us input{
+    width: 200px;
+    margin-right: 15px;
+}
+.us button{
+    width: 80px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #000;
+}
+input::-moz-focus-outer{
+    outline: none;
+    border-color: coral;
+}
+.us {
+    background-image: url(Images/xqcUFv.jpg);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    height: 600px;
+    width: 1200;
+    margin-top: 0px;
+}
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+*{
+    padding: o;
+    margin: 0;
+}
+.meta img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+.meta {
+    background: linear-gradient(skyblue,lightgreen);
+    background-size: cover;
+    background-position: center;
+}
+.Malay {
+    background-image: url(Images/malaysia-islan-map.png);
+    background-position: center;
+    background-size: cover;
+    width: 1550px;
+    height: 800px;
+}
+.East img {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+.East {
+    background: linear-gradient(lightgray,gold)
+}
